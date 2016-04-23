@@ -4,6 +4,8 @@
   "description": "A simple To do app using React, Redux, Babel, and Webpack",
   "main": "index.js",
   "scripts": {
+    "dev": "webpack-dev-server",
+    "start": "npm run dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -13,16 +15,16 @@
   },
   "license": "ISC",
   "dependencies": {
+    "angular2": "2.0.0-beta.14",
+    "bootstrap": "^3.3.6",
+    "es6-shim": "^0.35.0",
     "react": "^0.14.7",
     "react-dom": "^0.14.7",
     "react-redux": "^4.4.1",
     "redux": "^3.3.1",
     "reflect-metadata": "0.1.2",
     "rxjs": "5.0.0-beta.2",
-    "zone.js": "0.6.6",
-    "es6-shim": "^0.35.0",
-    "angular2": "2.0.0-beta.14",
-    "bootstrap": "^3.3.6"
+    "zone.js": "0.6.6"
   },
   "devDependencies": {
     "babel-cli": "^6.6.5",
